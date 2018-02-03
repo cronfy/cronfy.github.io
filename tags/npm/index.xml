@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Npm on Cronfy</title>
+    <link>http://cronfy.ru/tags/npm/</link>
+    <description>Recent content in Npm on Cronfy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>© cronfy</copyright>
+    <lastBuildDate>Tue, 06 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cronfy.ru/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Установка node/npm от пользователя (без root)</title>
+      <link>http://cronfy.ru/post/install-node-npm-from-user-no-root/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/post/install-node-npm-from-user-no-root/</guid>
+      <description>При глобальной установке node/npm через менеджер пакетов есть проблема: практически 100% поставится старая версия, с которой ничего уже не работает.
+Поэтому мы будем ставить свежую версию nodejs локально от пользователя (без root).
+Подсказки по локальной установке: isaacs/node-and-npm-in-30-seconds.sh. В инструкции ниже используется вариант с nave.
+Подготовка: basher и nave basher нужен для установки nave Basher на github: https://github.com/basherpm/basher.
+git clone https://github.com/basherpm/basher.git ~/.basher echo &#39;export PATH=&amp;quot;$HOME/.basher/bin:$PATH&amp;quot;&#39; &amp;gt;&amp;gt; ~/.bash_profile echo &#39;eval &amp;quot;$(basher init -)&amp;quot;&#39; &amp;gt;&amp;gt; ~/.</description>
+    </item>
+    
+  </channel>
+</rss>

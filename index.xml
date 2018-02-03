@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cronfy</title>
+    <link>http://cronfy.ru/</link>
+    <description>Recent content on Cronfy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>© cronfy</copyright>
+    <lastBuildDate>Fri, 16 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cronfy.ru/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Создание wildcard-сертификата SSL для разработки с SAN и установка его в Google Chrome 58&#43;</title>
+      <link>http://cronfy.ru/post/ssl-wildcard-san/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/post/ssl-wildcard-san/</guid>
+      <description>Удобно, когда на компьютере разработчика сайты работают по HTTPS. Это позволяет отлаживать все, что требует защищенного соединения в браузере, не прибегая к каким-либо хакам.
+ Удобно также, когда для каждого нового сайта не нужно создавать новый сертификат, а есть один сертификат для всех сайтов.
+ Существует много инструкций по созданию сертификатов, но начиная с версии Chrome 58 многие из них не работают. Это связано с тем, что теперь сертификаты с указанием имени домена через Common Name не поддерживаются.</description>
+    </item>
+    
+    <item>
+      <title>Установка node/npm от пользователя (без root)</title>
+      <link>http://cronfy.ru/post/install-node-npm-from-user-no-root/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/post/install-node-npm-from-user-no-root/</guid>
+      <description>При глобальной установке node/npm через менеджер пакетов есть проблема: практически 100% поставится старая версия, с которой ничего уже не работает.
+Поэтому мы будем ставить свежую версию nodejs локально от пользователя (без root).
+Подсказки по локальной установке: isaacs/node-and-npm-in-30-seconds.sh. В инструкции ниже используется вариант с nave.
+Подготовка: basher и nave basher нужен для установки nave Basher на github: https://github.com/basherpm/basher.
+git clone https://github.com/basherpm/basher.git ~/.basher echo &#39;export PATH=&amp;quot;$HOME/.basher/bin:$PATH&amp;quot;&#39; &amp;gt;&amp;gt; ~/.bash_profile echo &#39;eval &amp;quot;$(basher init -)&amp;quot;&#39; &amp;gt;&amp;gt; ~/.</description>
+    </item>
+    
+    <item>
+      <title>Удобная пагинация в yii2</title>
+      <link>http://cronfy.ru/post/nice-yii2-pagination/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/post/nice-yii2-pagination/</guid>
+      <description>Добиваемся пагинации в yii2 такого вида:
+   В чем смысл:
+ Всегда видно 7 ближайших страниц. Всегда можно перейти на первую или последнюю страницу. Ссылка &amp;ldquo;на первую страницу&amp;rdquo; появляется только при необходимости: если первая страница еще не показывается среди ближайших 7-ми. Ссылка &amp;ldquo;на предыдущую страницу&amp;rdquo; появляется только тогда, когда есть ссылка на первую страницу. Аналогично со ссылками &amp;ldquo;вперед&amp;rdquo;.  Настройки для yii\widgets\LinkPager:
+$pages = ... ; // это должен быть yii\data\Pagination $linkPagerConfig = [ &#39;prevPageLabel&#39; =&amp;gt; ($pages-&amp;gt;pageCount &amp;lt;= 7) || ($pages-&amp;gt;page &amp;lt;= 3) ?</description>
+    </item>
+    
+  </channel>
+</rss>

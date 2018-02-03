@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Cronfy</title>
+    <link>http://cronfy.ru/tags/</link>
+    <description>Recent content in Tags on Cronfy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>© cronfy</copyright>
+    <lastBuildDate>Fri, 16 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cronfy.ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache</title>
+      <link>http://cronfy.ru/tags/apache/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basher</title>
+      <link>http://cronfy.ru/tags/basher/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/basher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certificate</title>
+      <link>http://cronfy.ru/tags/certificate/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/certificate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome</title>
+      <link>http://cronfy.ru/tags/chrome/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nave</title>
+      <link>http://cronfy.ru/tags/nave/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/nave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node</title>
+      <link>http://cronfy.ru/tags/node/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Npm</title>
+      <link>http://cronfy.ru/tags/npm/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pagination</title>
+      <link>http://cronfy.ru/tags/pagination/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/pagination/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>http://cronfy.ru/tags/php/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>San</title>
+      <link>http://cronfy.ru/tags/san/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/san/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssl</title>
+      <link>http://cronfy.ru/tags/ssl/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twig</title>
+      <link>http://cronfy.ru/tags/twig/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/twig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wildcard</title>
+      <link>http://cronfy.ru/tags/wildcard/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/wildcard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yii2</title>
+      <link>http://cronfy.ru/tags/yii2/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/tags/yii2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

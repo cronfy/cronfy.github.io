@@ -1,0 +1,830 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Cronfy</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.24.1" />
+        
+
+
+        
+        
+            
+        
+
+        
+        <meta property="og:title" content="Cronfy" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://cronfy.ru/" />
+
+
+
+<meta property="og:updated_time" content="2017-06-16T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Cronfy">
+<meta itemprop="description" content="">
+
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="/css/google-font.css" />
+            <link rel="stylesheet" href="/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/add-on.css" />
+            <link rel="stylesheet" href="/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h1><a href="/">Cronfy</i></a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/post">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Статьи
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/tags">
+                        Теги
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://cronfy.ru/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://cronfy.ru/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/post">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Статьи
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            <h3>
+                                
+                                Теги
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://cronfy.ru/post/ssl-wildcard-san/"><p>Создание wildcard-сертификата SSL для разработки с SAN и установка его в Google Chrome 58&#43;</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://cronfy.ru/post/install-node-npm-from-user-no-root/"><p>Установка node/npm от пользователя (без root)</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://cronfy.ru/post/nice-yii2-pagination/"><p>Удобная пагинация в yii2</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="http://cronfy.ru/post/"><p>Posts</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    
+    <div id="main">
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://cronfy.ru/post/ssl-wildcard-san/">Создание wildcard-сертификата SSL для разработки с SAN и установка его в Google Chrome 58&#43;</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2017-06-16'>
+            June 16, 2017</time>
+        <span class="author"></span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f&text=%d0%a1%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5%20wildcard-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%b0%20SSL%20%d0%b4%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b8%20%d1%81%20SAN%20%d0%b8%20%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0%20%d0%b5%d0%b3%d0%be%20%d0%b2%20Google%20Chrome%2058%2b&via=cronfy" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="https://vk.com/share.php?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn vkontakte">
+    <i class="fa fa-vk"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f&title=%d0%a1%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5%20wildcard-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%b0%20SSL%20%d0%b4%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b8%20%d1%81%20SAN%20%d0%b8%20%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0%20%d0%b5%d0%b3%d0%be%20%d0%b2%20Google%20Chrome%2058%2b" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<p>Удобно, когда на компьютере разработчика сайты работают по HTTPS.
+Это позволяет отлаживать все, что требует защищенного соединения в браузере,
+не прибегая к каким-либо хакам.</p>
+
+
+<figure >
+    
+        <img src="/media/ssl-wildcard-san/ssl.png" />
+    
+    
+</figure>
+
+
+<p>Удобно также, когда для каждого нового сайта не нужно создавать новый
+сертификат, а есть один сертификат для всех сайтов.</p>
+
+
+<figure >
+    
+        <img src="/media/ssl-wildcard-san/ssl-wildcard.png" />
+    
+    
+</figure>
+
+
+<p>Существует много инструкций по созданию сертификатов, но начиная с версии
+Chrome 58 многие из них не работают. Это связано с тем, что теперь
+сертификаты с указанием имени домена через <code>Common Name</code> не поддерживаются.
+ Вместо этого нужно использовать <code>SAN</code> (Subject Alternative Name).</p>
+
+<p>Инструкция о том, как это сделать, взята с сайта
+<a href="https://alexanderzeitler.com/articles/Fixing-Chrome-missing_subjectAltName-selfsigned-cert-openssl/">Alexander Zeitler</a>.</p>
+
+<p>Что потребуется:</p>
+
+<ul>
+<li>Создать корневой сертификат центра сертификации (CA).</li>
+<li>С помощью этого сертификата выпустить wildcard-сертификат с
+использованием SAN для имени вида <code>*.dev.loc</code> (все поддомены третьего уровня).
+Домен должен быть обязательно третьего уровня или больше <strong>(домен второго уровня
+работать не будет).</strong></li>
+<li>Установить корневой CA сертификат в Google Chrome.</li>
+<li>Для всех локальных сайтов с SSL использовать имя вида <code>*.dev.loc</code>, например, <code>example.dev.loc</code>.</li>
+<li>Прописать wildcard-сертификат в конфигурации виртуальных хостов веб-сервера.</li>
+</ul>
+
+<p>После этого при входе по HTTPS Chrome будет показывать, что соединение &ldquo;Надежное&rdquo;.</p>
+
+<h2 id="создать-корневой-сертификат-центра-сертификации-ca">Создать корневой сертификат центра сертификации (CA)</h2>
+
+<p>Нужно создать скрипт <code>createRootCA.sh</code> следующего содержания:</p>
+
+<pre><code class="language-bash">#!/usr/bin/env bash
+
+mkdir ~/ssl/
+openssl genrsa -des3 -out ~/ssl/rootCA.key 2048
+openssl req -x509 -new -nodes -key ~/ssl/rootCA.key -sha256 -days 1024 -out ~/ssl/rootCA.pem
+</code></pre>
+
+<p>И запустить его.</p>
+
+<h2 id="выпустить-wildcard-сертификат-с-использованием-san">Выпустить wildcard-сертификат с использованием SAN</h2>
+
+<p>Теперь нужно создать скрипт для генерации сертификата и два вспомогательных
+файла:</p>
+
+<p>Скрипт <code>createselfsignedcertificate.sh</code>:</p>
+
+<pre><code class="language-bash">#!/usr/bin/env bash
+
+sudo openssl req -new -sha256 -nodes -newkey rsa:2048 \ 
+    -out server.csr \
+    -keyout server.key \ 
+    -config &lt;( cat server.csr.cnf )
+
+sudo openssl x509 -req -days 500 -sha256 -CAcreateserial \ 
+    -CA ~/ssl/rootCA.pem -CAkey ~/ssl/rootCA.key \ 
+    -in server.csr \
+    -out server.crt \
+    -extfile v3.ext
+</code></pre>
+
+<p>Файл <code>server.csr.cnf</code>:</p>
+
+<pre><code class="language-ini">[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C = US
+ST = New York
+L = Rochester
+O = End Point
+OU = Testing Domain
+emailAddress = your-administrative-address@your-awesome-existing-domain.com
+CN = *.dev.loc
+</code></pre>
+
+<p>Файл <code>v3.ext</code>, в котором мы и прописываем Subject Alternative Name
+(параметр <code>@alt_names</code>).</p>
+
+<pre><code class="language-ini">authorityKeyIdentifier = keyid,issuer
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = *.dev.loc
+</code></pre>
+
+<p>И теперь запускаем <code>createselfsignedcertificate.sh</code>.</p>
+
+<h2 id="установить-сертификат-в-google-chrome">Установить сертификат в Google Chrome</h2>
+
+<p>После запуска первого скрипта создается файл <code>~/ssl/rootCA.pem</code>. Его нужно добавить в Chrome следующим образом:</p>
+
+<ol>
+<li>Настройки.</li>
+<li>(внизу) Показать дополнительные настройки.</li>
+<li>HTTPS/SSL -&gt; Настроить сертификаты.</li>
+<li>Центры сертификации -&gt; Импорт.</li>
+<li>Выбираем файл <code>~/ssl/rootCA.pem</code>.</li>
+<li>Отмечаем галочку &ldquo;Доверять этому сертификату при идентификации сайтов&rdquo;
+и нажимаем OK.</li>
+</ol>
+
+<p>Результатом будет добавленный сертификат центра сертификации
+&ldquo;Internet Widgits Pty Ltd&rdquo;:</p>
+
+
+<figure >
+    
+        <img src="/media/ssl-wildcard-san/ssl-ca.png" />
+    
+    
+</figure>
+
+
+<h2 id="установить-сертификат-на-веб-сервер">Установить сертификат на веб-сервер</h2>
+
+<p>В результате работы второго скрипта в текущей директории появятся файлы
+<code>server.key</code> и <code>server.crt</code>. Их нужно подключить к веб-серверу.
+В Apache это происходит примерно так:</p>
+
+<pre><code class="language-apache">&lt;VirtualHost *:443&gt;
+        ServerName tests.dev.loc
+
+        SSLEngine on
+        SSLCertificateFile /var/www/ssl-wildcard/server.crt
+        SSLCertificateKeyFile /var/www/ssl-wildcard/server.key
+
+        ...
+&lt;/VirtualHost&gt;
+</code></pre>
+
+<h2 id="результат">Результат</h2>
+
+<p>Перезапускаем веб-сервер, и теперь сайты работают по SSL.</p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+                        Категория
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0'>Разработка</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://cronfy.ru/post/install-node-npm-from-user-no-root/"
+                class="button big previous">Установка node/npm от пользователя (без root)</a></li>
+    
+
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'cronfy';
+    var disqus_identifier = 'http:\/\/cronfy.ru\/post\/ssl-wildcard-san\/';
+    var disqus_title = 'Создание wildcard-сертификата SSL для разработки с SAN и установка его в Google Chrome 58\x2b';
+    var disqus_url = 'http:\/\/cronfy.ru\/post\/ssl-wildcard-san\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+
+            <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f&text=%d0%a1%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5%20wildcard-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%b0%20SSL%20%d0%b4%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b8%20%d1%81%20SAN%20%d0%b8%20%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0%20%d0%b5%d0%b3%d0%be%20%d0%b2%20Google%20Chrome%2058%2b&via=cronfy" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="https://vk.com/share.php?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn vkontakte">
+    <i class="fa fa-vk"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f&title=%d0%a1%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5%20wildcard-%d1%81%d0%b5%d1%80%d1%82%d0%b8%d1%84%d0%b8%d0%ba%d0%b0%d1%82%d0%b0%20SSL%20%d0%b4%d0%bb%d1%8f%20%d1%80%d0%b0%d0%b7%d1%80%d0%b0%d0%b1%d0%be%d1%82%d0%ba%d0%b8%20%d1%81%20SAN%20%d0%b8%20%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0%20%d0%b5%d0%b3%d0%be%20%d0%b2%20Google%20Chrome%2058%2b" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by &body=http%3a%2f%2fcronfy.ru%2fpost%2fssl-wildcard-san%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+        
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="/" class="logo"><img src="https://s.gravatar.com/avatar/1be53a0fad925ce9896ce5c48a6bc298" alt="Олег Петрачев" /></a>
+                
+            
+            
+                <header>
+                    <h2>Cronfy</h2>
+                    <p>Злой. Добрый.</p>
+                </header>
+            
+            <ul class="icons">
+                
+                    <li><a href="http://cronfy.ru/index.xml" type="application/rss+xml"
+                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
+                
+                
+                    
+<li><a href="//github.com/cronfy" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/cronfy" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+<li><a href="//vk.com/bytheway" target="_blank" title="ВКонтакте" class="fa fa-vk"></a></li>
+
+
+
+<li><a href="mailto:cronfy@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Недавние статьи</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://cronfy.ru/post/ssl-wildcard-san/">Создание wildcard-сертификата SSL для разработки с SAN и установка его в Google Chrome 58&#43;</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-06-16'>
+                                    June 16, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://cronfy.ru/post/install-node-npm-from-user-no-root/">Установка node/npm от пользователя (без root)</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-06-06'>
+                                    June 6, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://cronfy.ru/post/nice-yii2-pagination/">Удобная пагинация в yii2</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2017-05-23'>
+                                    May 23, 2017</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="/categories/">Категории</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="/categories/%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/">Разработка</a>
+                                <span style="float:right;">3</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                    <li><a href="http://cronfy.ru/index.xml" type="application/rss+xml"
+                        target="_blank" title="RSS" class="fa fa-rss"></a></li>
+                
+                
+                    
+<li><a href="//github.com/cronfy" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/cronfy" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+<li><a href="//vk.com/bytheway" target="_blank" title="ВКонтакте" class="fa fa-vk"></a></li>
+
+
+
+<li><a href="mailto:cronfy@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Cronfy. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
+            <script src="/js/backToTop.js"></script>
+            <script src="/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+

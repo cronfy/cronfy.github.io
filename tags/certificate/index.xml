@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certificate on Cronfy</title>
+    <link>http://cronfy.ru/tags/certificate/</link>
+    <description>Recent content in Certificate on Cronfy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>© cronfy</copyright>
+    <lastBuildDate>Fri, 16 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cronfy.ru/tags/certificate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Создание wildcard-сертификата SSL для разработки с SAN и установка его в Google Chrome 58&#43;</title>
+      <link>http://cronfy.ru/post/ssl-wildcard-san/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/post/ssl-wildcard-san/</guid>
+      <description>Удобно, когда на компьютере разработчика сайты работают по HTTPS. Это позволяет отлаживать все, что требует защищенного соединения в браузере, не прибегая к каким-либо хакам.
+ Удобно также, когда для каждого нового сайта не нужно создавать новый сертификат, а есть один сертификат для всех сайтов.
+ Существует много инструкций по созданию сертификатов, но начиная с версии Chrome 58 многие из них не работают. Это связано с тем, что теперь сертификаты с указанием имени домена через Common Name не поддерживаются.</description>
+    </item>
+    
+  </channel>
+</rss>

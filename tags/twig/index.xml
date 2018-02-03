@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twig on Cronfy</title>
+    <link>http://cronfy.ru/tags/twig/</link>
+    <description>Recent content in Twig on Cronfy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <copyright>© cronfy</copyright>
+    <lastBuildDate>Tue, 23 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cronfy.ru/tags/twig/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Удобная пагинация в yii2</title>
+      <link>http://cronfy.ru/post/nice-yii2-pagination/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cronfy.ru/post/nice-yii2-pagination/</guid>
+      <description>Добиваемся пагинации в yii2 такого вида:
+   В чем смысл:
+ Всегда видно 7 ближайших страниц. Всегда можно перейти на первую или последнюю страницу. Ссылка &amp;ldquo;на первую страницу&amp;rdquo; появляется только при необходимости: если первая страница еще не показывается среди ближайших 7-ми. Ссылка &amp;ldquo;на предыдущую страницу&amp;rdquo; появляется только тогда, когда есть ссылка на первую страницу. Аналогично со ссылками &amp;ldquo;вперед&amp;rdquo;.  Настройки для yii\widgets\LinkPager:
+$pages = ... ; // это должен быть yii\data\Pagination $linkPagerConfig = [ &#39;prevPageLabel&#39; =&amp;gt; ($pages-&amp;gt;pageCount &amp;lt;= 7) || ($pages-&amp;gt;page &amp;lt;= 3) ?</description>
+    </item>
+    
+  </channel>
+</rss>
